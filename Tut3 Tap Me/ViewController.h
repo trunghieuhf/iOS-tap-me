@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController<UIAlertViewDelegate>
+{
+    
+}
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 @property (weak, nonatomic) IBOutlet UIButton *tapBtn;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property(nonatomic) NSInteger cancelButtonIndex;
-
 - (IBAction)buttonPressed;
 @end
